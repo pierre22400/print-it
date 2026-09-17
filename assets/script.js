@@ -18,11 +18,11 @@ const slides = [
 ]
 
 
-let arrowLeft = document.getElementById("arrow-left");
-let arrowRight = document.getElementById("arrow-right");
-let bannerImage = document.querySelector(".banner-img");
-let bannerText = document.querySelector("#banner p");
-let dotsContainer = document.querySelector(".dots");
+const arrowLeft = document.getElementById("arrow-left");
+const arrowRight = document.getElementById("arrow-right");
+const bannerImage = document.querySelector(".banner-img");
+const bannerText = document.querySelector("#banner p");
+const dotsContainer = document.querySelector(".dots");
 
 for (let i = 0; i < slides.length; i++) {
   let dot = document.createElement("div");
